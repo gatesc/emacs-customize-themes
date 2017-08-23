@@ -1,0 +1,32 @@
+(deftheme adwaita
+  "Created 2017-08-22.")
+
+(custom-theme-set-faces
+ 'adwaita
+ '(cursor ((((class color) (min-colors 89)) (:background "#00BBFF"))))
+ '(mode-line ((((class color) (min-colors 89)) (:box (:line-width -1 :style released-button) :background "white" :foreground "#2E3436"))))
+ '(mode-line-inactive ((t (:background "white" :foreground "dim gray"))))
+ '(header-line ((((class color) (min-colors 89)) (:foreground "#CCCCCC" :background "black"))))
+ '(minibuffer-prompt ((((class color) (min-colors 89)) (:foreground "#0084C8" :bold t))))
+ '(region ((((class color) (min-colors 89)) (:foreground unspecified :background "#C2D5E9"))))
+ '(dired-header ((((class color) (min-colors 89)) (:bold t :foreground "#0084C8"))))
+ '(widget-button ((((class color) (min-colors 89)) (:bold t :foreground "#0084C8"))))
+ '(success ((((class color) (min-colors 89)) (:bold t :foreground "#4E9A06"))))
+ '(warning ((((class color) (min-colors 89)) (:foreground "#CE5C00"))))
+ '(error ((((class color) (min-colors 89)) (:foreground "#B50000"))))
+ '(font-lock-builtin-face ((((class color) (min-colors 89)) (:foreground "#A020F0"))))
+ '(font-lock-constant-face ((((class color) (min-colors 89)) (:foreground "#F5666D"))))
+ '(font-lock-comment-face ((t (:foreground "dark red"))))
+ '(font-lock-function-name-face ((((class color) (min-colors 89)) (:foreground "#00578E" :bold t))))
+ '(font-lock-keyword-face ((t (:foreground "midnight blue"))))
+ '(font-lock-string-face ((((class color) (min-colors 89)) (:foreground "#4E9A06"))))
+ '(font-lock-type-face ((((class color) (min-colors 89)) (:foreground "#2F8B58" :bold t))))
+ '(font-lock-variable-name-face ((((class color) (min-colors 89)) (:foreground "#0084C8" :bold t))))
+ '(font-lock-warning-face ((((class color) (min-colors 89)) (:foreground "#F5666D" :bold t))))
+ '(link ((((class color) (min-colors 89)) (:underline t :foreground "#0066CC"))))
+ '(link-visited ((((class color) (min-colors 89)) (:underline t :foreground "#6799CC"))))
+ '(highlight ((((class color) (min-colors 89)) (:foreground "white" :background "#4A90D9"))))
+ '(isearch ((((class color) (min-colors 89)) (:foreground "white" :background "#77A4DD"))))
+ '(default ((t (:background "light gray" :foreground "#2E3436")))))
+
+(provide-theme 'adwaita)
