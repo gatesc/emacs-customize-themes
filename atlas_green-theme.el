@@ -1,9 +1,9 @@
 (deftheme atlas_green
-  "Created 2017-08-22.")
+  "Created 2017-08-23.")
 
 (custom-theme-set-faces
  'atlas_green
- '(cursor ((((class color) (min-colors 89)) (:background "#415160"))))
+ '(cursor ((t (:background "plum2"))))
  '(fringe ((((class color) (min-colors 89)) (:background "#2e3748"))))
  '(highlight ((((class color) (min-colors 89)) (:background "#338f86" :foreground "#e1e1e0"))))
  '(region ((((class color) (min-colors 89)) (:background "#2d4948" :foreground "#e1e1e0"))))
