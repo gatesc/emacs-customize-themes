@@ -1,0 +1,31 @@
+(deftheme leafgreen
+  "Created 2022-06-27.")
+
+(custom-theme-set-faces
+ 'leafgreen
+ '(cursor ((t (:background "plum2"))))
+ '(fringe ((((class color) (min-colors 89)) (:background "#2e3748"))))
+ '(highlight ((((class color) (min-colors 89)) (:background "#338f86" :foreground "#e1e1e0"))))
+ '(region ((((class color) (min-colors 89)) (:background "#2d4948" :foreground "#e1e1e0"))))
+ '(isearch ((((class color) (min-colors 89)) (:background "#fcffad" :foreground "#000000"))))
+ '(lazy-highlight ((((class color) (min-colors 89)) (:background "#338f86"))))
+ '(trailing-whitespace ((((class color) (min-colors 89)) (:background "#ff4242"))))
+ '(mode-line ((((class color) (min-colors 89)) (:background "#212931" :foreground "#eeeeec"))))
+ '(mode-line-inactive ((((class color) (min-colors 89)) (:background "#878787" :foreground "#eeeeec"))))
+ '(header-line ((((class color) (min-colors 89)) (:background "#e5e5e5" :foreground "#333333"))))
+ '(minibuffer-prompt ((((class color) (min-colors 89)) (:foreground "#729fcf" :weight bold))))
+ '(font-lock-builtin-face ((((class color) (min-colors 89)) (:foreground "#23d7d7"))))
+ '(font-lock-comment-face ((t (:foreground "#C1C044"))))
+ '(font-lock-constant-face ((t (:foreground "LightBlue2"))))
+ '(font-lock-function-name-face ((((class color) (min-colors 89)) (:foreground "#00ede1" :weight bold))))
+ '(font-lock-keyword-face ((t (:foreground "light coral"))))
+ '(font-lock-string-face ((t (:foreground "wheat"))))
+ '(font-lock-type-face ((((class color) (min-colors 89)) (:foreground "#34cae2"))))
+ '(font-lock-variable-name-face ((((class color) (min-colors 89)) (:foreground "#dbdb95"))))
+ '(font-lock-warning-face ((((class color) (min-colors 89)) (:foreground "#ff4242" :weight bold))))
+ '(button ((((class color) (min-colors 89)) (:underline t))))
+ '(link ((((class color) (min-colors 89)) (:foreground "#59e9ff" :underline t))))
+ '(link-visited ((((class color) (min-colors 89)) (:foreground "#ed74cd" :underline t))))
+ '(default ((t (:background "#256B25" :foreground "black")))))
+
+(provide-theme 'leafgreen)
